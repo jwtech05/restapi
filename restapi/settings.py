@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'memberapi',
+    'profileapp',
     'rest_framework',
     'knox',
 
@@ -85,7 +85,7 @@ DATABASES = {
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'MJUPLEX',  #mysql
+        'NAME': 'intger',  #mysql
         'USER': 'root', #root
         'PASSWORD': 'p247952p', #1234
         'HOST': '', #공백으로 냅두면 default localhost

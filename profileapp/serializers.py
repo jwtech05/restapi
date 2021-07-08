@@ -4,7 +4,7 @@ from django.contrib.auth import authenticate
 
 
 # 회원가입
-from memberapi.models import Profile
+from profileapp.models import Profile
 
 
 class CreateUserSerializer(serializers.ModelSerializer):
