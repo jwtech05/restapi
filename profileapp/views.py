@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.decorators import api_view
 from knox.models import AuthToken
 
-from .models import Profile
+from .models import Profile, User
 from .serializers import CreateUserSerializer, UserSerializer, LoginUserSerializer, ProfileSerializer
 
 
@@ -54,6 +54,13 @@ class UserAPI(generics.RetrieveAPIView):
     def get_object(self):
         return self.request.user
 
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+class UserDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
 class ProfileList(generics.ListCreateAPIView):
     queryset = Profile.objects.all()
