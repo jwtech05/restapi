@@ -85,7 +85,7 @@ DATABASES = {
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'intger',  #mysql
+        'NAME': 'restapi',  #mysql
         'USER': 'root', #root
         'PASSWORD': 'p247952p', #1234
         'HOST': '', #공백으로 냅두면 default localhost
