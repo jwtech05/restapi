@@ -11,3 +11,11 @@
 ![image](https://user-images.githubusercontent.com/82852457/147799770-97c6c0be-1c1a-4c13-b499-e32657a6180f.png)
 
 -각 request에 들어가 실제로 요청을 해서 response 결과를 다 생성해 예시로 만들어 저장해주었다.
+
+![image](https://user-images.githubusercontent.com/82852457/147799810-3d1d57cc-daad-4149-aaf3-326ac27a30d8.png)
+
+![image](https://user-images.githubusercontent.com/82852457/147799815-52720f1f-603b-4848-a926-618e15fb25e1.png)
+
+-view documententation을 통해 자동 문서화 시켜줬다.
+
+-결과물
