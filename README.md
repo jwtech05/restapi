@@ -1,4 +1,6 @@
 # restapi
+명세서 주소: https://documenter.getpostman.com/view/15940594/Tzm6kvP2
+
 
 1.목적
 -만든 Accountapi 앱에 대한 명세서 생성
@@ -19,3 +21,6 @@
 -view documententation을 통해 자동 문서화 시켜줬다.
 
 -결과물
+![image](https://user-images.githubusercontent.com/82852457/147799857-fd14b331-998a-4e47-bbf3-ad0a25ee5746.png)
+
+-마지막으로 Publish를 통해 실제 배포를 해서 url 주소를 갖게 되었다.
